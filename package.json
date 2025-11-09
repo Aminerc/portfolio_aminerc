@@ -1,0 +1,49 @@
+{
+  "name": "myportfolio",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "homepage": "https://aminerc.github.io/myportfolio/",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --mode production",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "preview": "vite preview",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "ts:check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^3.12.1",
+    "@react-three/drei": "^9.99.4",
+    "@react-three/fiber": "^8.15.16",
+    "framer-motion": "^11.0.8",
+    "maath": "^0.10.7",
+    "react": "^18.3.1",
+    "react-dom": "^18.2.0",
+    "react-hot-toast": "^2.6.0",
+    "react-parallax-tilt": "^1.7.212",
+    "react-vertical-timeline-component": "^3.6.0",
+    "three": "^0.161.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "@types/react-vertical-timeline-component": "^3.3.6",
+    "@typescript-eslint/eslint-plugin": "^7.1.1",
+    "@typescript-eslint/parser": "^7.1.1",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.17",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "gh-pages": "^6.1.1",
+    "glob": "^9.3.5",
+    "postcss": "^8.4.35",
+    "prettier": "^3.2.5",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.3.3",
+    "vite": "^5.1.4"
+  }
+}

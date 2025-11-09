@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <mask id="circleMask">
+      <circle cx="16" cy="16" r="15" fill="white"/>
+    </mask>
+  </defs>
+
+  <!-- Dark background -->
+  <circle cx="16" cy="16" r="16" fill="#050816"/>
+
+  <!-- Profile image masked to circle -->
+  <image 
+    href="/src/assets/pdp.jpg" 
+    x="1" 
+    y="1" 
+    width="30" 
+    height="30" 
+    preserveAspectRatio="xMidYMid slice"
+    mask="url(#circleMask)"
+  />
+
+  <!-- Violet border -->
+  <circle 
+    cx="16" 
+    cy="16" 
+    r="15" 
+    fill="none" 
+    stroke="#915EFF" 
+    stroke-width="1"
+  />
+</svg>
