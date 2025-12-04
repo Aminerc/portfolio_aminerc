@@ -242,7 +242,7 @@ Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
 ## 👤 Auteur
 
 **Amine Ouardi**
-- Portfolio : [https://aminerc.github.io/myportfolio/](https://aminerc.github.io/myportfolio/)
+- Portfolio : [https://aminerc.github.io/myportfolio/](https://aminerc.github.io/portfolio_aminerc/)
 - Email : aminerc.business@outlook.com
 - GitHub : [@aminerc](https://github.com/aminerc)
 
@@ -252,8 +252,4 @@ Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
 - [Framer Motion](https://www.framer.com/motion/) pour les animations
 - [Tailwind CSS](https://tailwindcss.com/) pour le styling
 - [EmailJS](https://www.emailjs.com/) pour le service d'emails
-
----
-
-Fait avec ❤️, patience et envie de progresser 📈
 
