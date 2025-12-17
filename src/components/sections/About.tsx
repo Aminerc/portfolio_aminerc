@@ -22,12 +22,12 @@ const ServiceCard: React.FC<IServiceCard> = ({ index, title, icon }) => (
     tiltMaxAngleY={30}
     glareColor="#aaa6c3"
   >
-    <div className="max-w-[250px] w-full xs:w-[250px]">
+    <div className="w-full">
       <motion.div
         variants={fadeIn("right", "spring", index * 0.5, 0.75)}
-        className="green-pink-gradient shadow-card w-full rounded-[20px] p-[1px]"
+        className="green-pink-gradient shadow-card h-full w-full rounded-[20px] p-[1px]"
       >
-        <div className="bg-tertiary flex min-h-[280px] flex-col items-center justify-evenly rounded-[20px] px-12 py-5">
+        <div className="bg-tertiary flex h-[280px] flex-col items-center justify-evenly rounded-[20px] px-8 py-6 text-center">
           <img
             src={icon}
             alt={`Icône ${title}`}
@@ -46,7 +46,7 @@ const ServiceCard: React.FC<IServiceCard> = ({ index, title, icon }) => (
 
 const About = () => {
   return (
-    <>
+    <div className="pt-8">
       <Header useMotion={true} {...config.sections.about} />
 
       <motion.p
@@ -56,12 +56,12 @@ const About = () => {
         {config.sections.about.content}
       </motion.p>
 
-      <div className="mt-20 flex flex-wrap gap-10 max-sm:justify-center">
+      <div className="mt-20 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
       </div>
-    </>
+    </div>
   );
 };
 

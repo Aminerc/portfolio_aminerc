@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react';
 export default defineConfig(({ mode }) => {
   // En développement, toujours utiliser '/' pour éviter les problèmes
   // En production, utiliser '/myportfolio/' pour GitHub Pages
-  const base = mode === 'production' ? '/myportfolio/' : '/';
+  const base = mode === 'production' ? '/portfolio_aminerc/' : '/';
   
   return {
     plugins: [react()],

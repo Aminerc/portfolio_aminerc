@@ -2,6 +2,7 @@ type TSection = {
   p: string;
   h2: string;
   content?: string;
+  footer?: string;
 };
 
 type TConfig = {
@@ -36,6 +37,7 @@ type TConfig = {
     experience: TSection;
     feedbacks: TSection;
     works: Required<TSection>;
+    vibeCoding: Required<TSection> & { footer: string };
   };
 };
 
@@ -44,7 +46,7 @@ export const config: TConfig = {
     title: "Amine Ouardi Portfolio",
     fullName: "Amine Ouardi",
     email: "aminerc.business@outlook.com",
-    cvLink: "/documents/CV_Amine_Ouardi.pdf",
+    cvLink: "/documents/CV_Amine_Ouardi_12%202025.pdf",
   },
   hero: {
     name: "Amine Ouardi",
@@ -93,6 +95,12 @@ J’utilise des outils tels que Excel avancé, Power Query, Power BI, VBA, SQL, 
       Mes projets apportent des solutions innovantes aux problématiques métiers critiques (pilotage financier, gestion de la masse salariale, suivi RH...)
       tout en démontrant ma capacité à concevoir et déployer des outils performants qui améliorent le quotidien de chacun.`
       ,
+    },
+    vibeCoding: {
+      p: "Approche développement",
+      h2: "Vibe Coding",
+      content: `Le vibe coding est passionnant car il permet de réaliser en quelques semaines un travail qui prendrait normalement plusieurs mois. Cette approche ne se contente pas d'aller vite : elle m'expose constamment à des problèmes et des difficultés techniques qui me poussent à débugger, à chercher des solutions et à approfondir ma compréhension. Bien sûr, cela ne remplacera jamais un vrai développeur expert, mais je pense que l'IA combinée à un expert dans le domaine (finance, data, BI) peut aller très très loin.`,
+      footer: `Je pratique le vibe coding pour le plaisir, mais aussi pour répondre à des besoins spécifiques que je rencontre dans mon quotidien professionnel ou qui sont identifiés dans les entreprises. Cette approche me permet de transformer rapidement des problématiques métier en outils concrets, utilisables et évolutifs, tout en développant mes compétences techniques au fil des défis rencontrés.`,
     },
   },
 };

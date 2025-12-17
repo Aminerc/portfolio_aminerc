@@ -44,7 +44,7 @@ export const navLinks: TNavLink[] = [
   },
   {
     id: "work",
-    title: "Expérience pro",
+    title: "Expérience",
   },
   {
     id: "tech",
@@ -57,6 +57,10 @@ export const navLinks: TNavLink[] = [
   {
     id: "works",
     title: "Projets",
+  },
+  {
+    id: "vibe-coding",
+    title: "Vibe Coding",
   },
   {
     id: "contact",

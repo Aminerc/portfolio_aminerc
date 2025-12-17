@@ -10,6 +10,7 @@ import {
   Experience,
   Works,
   Certifications,
+  VibeCoding,
   Contact,
   StarsCanvas
 } from "./components";
@@ -33,6 +34,7 @@ const App = () => {
         <Tech />
         <Certifications />
         <Works />
+        <VibeCoding />
         <div className="relative z-0">
           <Contact />
           <StarsCanvas />

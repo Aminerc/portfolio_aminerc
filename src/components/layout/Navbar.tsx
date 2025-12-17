@@ -100,20 +100,20 @@ const Navbar = () => {
           </div>
         </a>
 
-        <ul className="hidden list-none flex-row gap-10 sm:flex" role="menubar" aria-label="Menu de navigation">
+        <ul className="hidden list-none flex-row items-center gap-6 sm:flex" role="menubar" aria-label="Menu de navigation">
           {navLinks.map((nav) => (
             <li
               key={nav.id}
               className={`${
                 active === nav.id ? "text-white" : "text-secondary"
-              } cursor-pointer text-[18px] font-medium hover:text-white`}
+              } cursor-pointer text-[18px] font-medium hover:text-white whitespace-nowrap`}
               role="none"
             >
               <a 
                 href={`#${nav.id}`}
                 role="menuitem"
                 aria-current={active === nav.id ? "page" : undefined}
-                className="focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-primary p-2 rounded"
+                className="focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-primary p-2 rounded block"
               >
                 {nav.title}
               </a>
@@ -121,7 +121,7 @@ const Navbar = () => {
           ))}
         </ul>
 
-        <div className="hidden items-center gap-3 sm:flex">
+        <div className="hidden items-center gap-4 sm:flex ml-4">
           {socials.map((social) => (
             <a
               key={social.name}
@@ -129,7 +129,7 @@ const Navbar = () => {
               target="_blank"
               rel="noreferrer"
               aria-label={social.name}
-              className="text-secondary transition-colors duration-200 hover:text-white"
+              className="text-secondary transition-colors duration-200 hover:text-white flex items-center justify-center"
             >
               {iconMap[social.icon]}
             </a>

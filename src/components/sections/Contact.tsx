@@ -149,15 +149,25 @@ const Contact = () => {
             >
               {config.html.email}
             </a>
+            {" "}ou réservez directement un appel avec moi.
           </p>
           <div className="flex flex-wrap items-center gap-3">
             <a
               href={config.html.cvLink}
+              download="CV_Amine_Ouardi_12_2025.pdf"
               target="_blank"
               rel="noreferrer"
               className="rounded-full bg-[#915EFF] px-4 py-2 text-xs font-semibold uppercase tracking-wide text-white transition-transform duration-200 hover:-translate-y-0.5"
             >
               Télécharger mon CV
+            </a>
+            <a
+              href="https://calendly.com/aminerc-business/30min"
+              target="_blank"
+              rel="noreferrer"
+              className="rounded-full border-2 border-[#915EFF] bg-[#915EFF]/20 hover:bg-[#915EFF] px-4 py-2 text-xs font-semibold uppercase tracking-wide text-white transition-all duration-200 hover:-translate-y-0.5"
+            >
+              Réserver un appel
             </a>
             <div className="flex items-center gap-3">
               {socials.map((social) => (
