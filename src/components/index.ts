@@ -7,6 +7,7 @@ import {
 import Hero from "./sections/Hero";
 import Navbar from "./layout/Navbar";
 import Footer from "./layout/Footer";
+import LanguageSwitcher from "./layout/LanguageSwitcher";
 import About from "./sections/About";
 import Tech from "./sections/Tech";
 import Experience from "./sections/Experience";
@@ -27,6 +28,7 @@ export {
   Certifications,
   Contact,
   VibeCoding,
+  LanguageSwitcher,
   CanvasLoader,
   EarthCanvas,
   BallCanvas,

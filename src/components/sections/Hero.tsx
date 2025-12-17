@@ -1,9 +1,12 @@
+import { useTranslation } from "react-i18next";
 import { styles } from "../../constants/styles";
 /*import { ComputersCanvas } from "../canvas"; */
 import { config } from "../../constants/config";
 import { pdp } from "../../assets";
 
 const Hero = () => {
+  const { t } = useTranslation();
+  
   return (
     <section className={`relative mx-auto min-h-[60vh] w-full flex items-center pb-8`} aria-label="Section d'accueil">
       <div
@@ -36,10 +39,10 @@ const Hero = () => {
           
           <div>
             <h1 className={`${styles.heroHeadText} text-white`}>
-              <span className="text-[#915EFF]">{config.hero.name}</span>
+              <span className="text-[#915EFF]">{t("hero.name")}</span>
             </h1>
             <p className={`${styles.heroSubText} text-white-100 mt-2`}>
-              {config.hero.p[0]}
+              {t("hero.subtitle")}
             </p>
             <div className="mt-8 flex flex-wrap items-center gap-4">
               <a
@@ -49,13 +52,13 @@ const Hero = () => {
                 rel="noreferrer"
                 className="rounded-full bg-[#915EFF] px-6 py-3 text-sm font-semibold uppercase tracking-wide text-white transition-transform duration-200 hover:-translate-y-0.5"
               >
-                Télécharger mon CV
+                {t("hero.downloadCV")}
               </a>
               <a
                 href="#contact"
                 className="rounded-full border border-secondary/50 px-6 py-3 text-sm font-semibold uppercase tracking-wide text-secondary transition-colors duration-200 hover:border-white hover:text-white"
               >
-                Me contacter
+                {t("hero.contactMe")}
               </a>
               <a
                 href="https://calendly.com/aminerc-business/30min"
@@ -63,7 +66,7 @@ const Hero = () => {
                 rel="noreferrer"
                 className="rounded-full border-2 border-[#915EFF] bg-[#915EFF]/20 hover:bg-[#915EFF] px-6 py-3 text-sm font-semibold uppercase tracking-wide text-white transition-all duration-200 hover:-translate-y-0.5"
               >
-                Réserver un appel
+                {t("hero.bookCall")}
               </a>
             </div>
           </div>

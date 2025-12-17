@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -6,11 +7,10 @@ import {
 
 import "react-vertical-timeline-component/style.min.css";
 
-import { experiences } from "../../constants";
 import { SectionWrapper } from "../../hoc";
 import { Header } from "../atoms/Header";
 import { TExperience } from "../../types";
-import { config } from "../../constants/config";
+import { getTranslatedExperiences } from "../../utils/i18nHelpers";
 
 const ExperienceCard: React.FC<TExperience> = (experience) => {
   return (
@@ -58,9 +58,12 @@ const ExperienceCard: React.FC<TExperience> = (experience) => {
 };
 
 const Experience = () => {
+  const { t } = useTranslation();
+  const experiences = getTranslatedExperiences(t);
+  
   return (
     <>
-      <Header useMotion={true} {...config.sections.experience} />
+      <Header useMotion={true} p={t("experience.subtitle")} h2={t("experience.title")} />
 
       <div className="mt-20 flex flex-col">
         <VerticalTimeline>

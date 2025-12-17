@@ -1,0 +1,312 @@
+{
+  "nav": {
+    "about": "Profil",
+    "experience": "Expérience",
+    "tech": "Technologies",
+    "certifications": "Certifications",
+    "works": "Projets",
+    "vibeCoding": "Vibe Coding",
+    "contact": "Contact"
+  },
+  "hero": {
+    "name": "Amine Ouardi",
+    "subtitle": "Là où la technologie rencontre la finance, naissent les outils qui permettent de piloter efficacement la performance et les décisions.",
+    "downloadCV": "Télécharger mon CV",
+    "contactMe": "Me contacter",
+    "bookCall": "Réserver un appel"
+  },
+  "about": {
+    "subtitle": "Profil",
+    "title": "Introduction",
+    "content": "Analyste et concepteur d'outils de pilotage financier, j'interviens à la croisée de la finance et de la technologie pour structurer, automatiser et rendre les données exploitables. Diplômé en comptabilité et gestion, puis formé en data analyse et intelligence artificielle, j'ai évolué vers un rôle axé sur la transformation financière, la business intelligence et le conseil en performance. Mon approche allie compréhension des enjeux financiers, maîtrise des données et vision technologique afin d'accompagner les entreprises dans la modernisation de leur pilotage, l'automatisation de leurs processus et la fiabilisation de leurs analyses. J'ai conçu et déployé des modèles financiers dynamiques, des tableaux de bord interactifs et des systèmes de suivi automatisés permettant aux décideurs de mieux comprendre, anticiper et piloter leur activité. J'utilise des outils tels que Excel avancé, Power Query, Power BI, VBA, SQL, Python, Power Automate et n8n, pour développer des solutions sur mesure qui allient précision, rapidité et valeur ajoutée décisionnelle.",
+    "services": {
+      "finance": "Finance",
+      "data": "Data",
+      "businessIntelligence": "Business Intelligence",
+      "artificialIntelligence": "Intelligence Artificielle"
+    }
+  },
+  "experience": {
+    "subtitle": "Mon parcours professionnel jusqu'à présent",
+    "title": "Parcours pro",
+    "items": {
+      "snagz": {
+        "title": "Automatisation financière & Data | BI",
+        "company": "SNAgz",
+        "date": "Mai 2025 - Présent",
+        "points": [
+          "Mise en place et automatisation des processus financiers (P&L automatisé à ~90%, calcul des marges, provisions).",
+          "Structuration d'un système de suivi de la rentabilité par projet/vente et forecasting du chiffre d'affaires.",
+          "Restructuration de l'ERP et automatisation des flux comptables via Power Query / SQL.",
+          "Déploiement de dashboards Power BI financiers et extra‑financiers pour un pilotage opérationnel et décisionnel.",
+          "Résultats : vision automatisée des marges sur 5 activités principales; structuration complète des coûts directs et indirects; plan de réduction des coûts piloté via tableaux de bord."
+        ]
+      },
+      "anef": {
+        "title": "Contrôleur de Gestion",
+        "company": "ANEF 03-63",
+        "date": "Janvier 2023 - Mai 2025",
+        "points": [
+          "Suivi budgétaires et corrections/analyse des écarts.",
+          "Création de tableaux de bords, fichiers automatisés dediés à la gestion, suivi des finances et des ressources humaines.",
+          "Mise en plage et gestion de la base de données comptable sous SQL en intégrant les données sur Excel via PowerQuery et SQL.",
+          "Mise en place et structuration de la base de données du progiciel de gestion budgétaire DIR-IPS."
+        ]
+      },
+      "morpheus": {
+        "title": "Concepteur de fichiers standards / sur mésure Excel",
+        "company": "Morpheus Formation",
+        "date": "Octobre 2024 - Octobre 2025",
+        "points": [
+          "Création de fichiers standards / modèles de fichiers Excel no code en libre service ou dediés à la vente",
+          "Création de fichiers sur mesure à la demande des clients : Finance, Associations, Suivi RH..."
+        ]
+      },
+      "datascientest": {
+        "title": "Formation Data Analyst",
+        "company": "Datascientest.com",
+        "date": "Septembre 2024 - Avril 2025",
+        "points": [
+          "Analyse et gestion des données avec Python via Pandas, NumPy, Scikit-learn, PySpark pour le preprocessing et la manipulation de dataframes.",
+          "Visualisation avec Matplotlib, Seaborn, Plotly, ggplot, Bokeh pour des graphiques statistiques et interactifs.",
+          "Machine learning avec Scikit-learn, TensorFlow, PyTorch, XGBoost, LightGBM pour la prédiction et la modélisation.",
+          "Bases de données : SQL, normalisation, structuration avec PostgreSQL, MySQL, SQLite pour une gestion optimisée des données."
+        ]
+      },
+      "iscod": {
+        "title": "Executive Bachelor : Comptabilité Finance et Gestion",
+        "company": "ISCOD",
+        "date": "Septembre 2023 - Août 2024",
+        "points": [
+          "Comptabilité : principes, normes, réglementations et obligations comptables.",
+          "Finance d'entreprise : reporting, forecasting, marges, rentabilité, analyse des coûts et des écarts.",
+          "Gestion financière : élaboration de dashboards et reportings pour le suivi de la performance.",
+          "Droit des entreprises : bases du droit du travail, réglementations et cadre juridique des sociétés.",
+          "Marketing & communication : stratégies de communication, publicité, gestion de marque et relation client.",
+          "Business English : maîtrise des terminologies, négociation, présentations et échanges professionnels en anglais."
+        ]
+      }
+    }
+  },
+  "feedbacks": {
+    "subtitle": "Ceux qui m'ont fait confiance...",
+    "title": "Avis clients",
+    "items": {
+      "hussam": {
+        "testimonial": "Amine a pu me construire un fichier Excel pour un suivi de l'activité d'un hôpital à Ryiad. En quelques semaines c'était bouclé.",
+        "name": "Hussam F.",
+        "designation": "Finance Manager",
+        "company": "King Abdullah Hospital Center"
+      }
+    }
+  },
+  "tech": {
+    "items": {
+      "excel": {
+        "name": "Excel & Power Pivot",
+        "level": "Expert",
+        "usage": "Mise en place d'outils décisionnels et dashboards financiers / extra-financiers, simulations et scénarios."
+      },
+      "powerquery": {
+        "name": "Power Query",
+        "level": "Avancé",
+        "usage": "Collecte automatisée et transformation des données multi-sources (ERP, SaaS, APIs), industrialisation de fichiers."
+      },
+      "powerbi": {
+        "name": "Power BI",
+        "level": "Avancé",
+        "usage": "Conception de rapports interactifs avec storytelling data, sécurité Row Level Security (RLS) et gouvernance."
+      },
+      "sql": {
+        "name": "SQL",
+        "level": "Avancé",
+        "usage": "Structuration de bases, requêtes complexes, optimisation des flux et préparation des données pour le pilotage."
+      },
+      "automation": {
+        "name": "Power Automate & n8n",
+        "level": "Intermédiaire",
+        "usage": "Automatisation de workflows métiers, notifications temps réel et intégrations low-code/no-code."
+      },
+      "python": {
+        "name": "Python",
+        "level": "Intermédiaire",
+        "usage": "Scripts d'automatisation, analyses statistiques, prototypage d'applications data (Pandas, Streamlit)."
+      },
+      "talend": {
+        "name": "Talend & ETL",
+        "level": "Débutant",
+        "usage": "Intégration de données et création de pipelines décisionnels pour alimenter les outils BI."
+      }
+    }
+  },
+  "works": {
+    "subtitle": "Mes réalisations",
+    "title": "Projets",
+    "content": "Les réalisations présentées ci-dessous sont issues de cas concrets et de défis rencontrés lors de mes expériences professionnelles. Mes projets apportent des solutions innovantes aux problématiques métiers critiques (pilotage financier, gestion de la masse salariale, suivi RH...) tout en démontrant ma capacité à concevoir et déployer des outils performants qui améliorent le quotidien de chacun.",
+    "items": {
+      "budget": {
+        "name": "Suivi et gestion budgétaire",
+        "description": "Fichier Excel pour le suivi budgétaire et la prévision sur 1 ans en fonction de variables et API (inflation). Les données comptables sont issues automatiquement via des requêtes Power Query, interrogeant la base de données du progiciel comptable.",
+        "tags": ["Excel", "sql", "Finance"]
+      },
+      "rh": {
+        "name": "Tableau de bord RH",
+        "description": "Tableau de bord de suivi de personnel et évolutions de la population au sein de l'ANEF 03-63. Les données sont integrées via des requêtes Power Query, en lien avec des APIs liées au 'SaaS' de la structure",
+        "tags": ["Excel", "PowerQuery", "RH"]
+      },
+      "callcenter": {
+        "name": "Performance Dashboard",
+        "description": "Rapport PowerBi pour suivre les performances d'un Call Center subdivisé en 3 catégories : performances générales, performances des employés et performances des managers. Données issues de differents datasets sous differentes formes (texte, csv, bdd externe...)",
+        "tags": ["PowerBi", "PowerQuery", "Data"]
+      },
+      "velos": {
+        "name": "Trafic Cyclisme Paris",
+        "description": "Ce projet analyse l'évolution du trafic vélo à Paris sur plusieurs années, en lien avec des événements exceptionnels (COVID, fêtes nationales) et la météo, pour mieux comprendre les tendances et optimiser l'aménagement urbain.",
+        "tags": ["Python", "Streamlit", "Data Analysis"]
+      }
+    }
+  },
+  "certifications": {
+    "subtitle": "Apprentissages clés",
+    "title": "Certifications & Diplômes",
+    "viewCertification": "Voir la certification",
+    "items": {
+      "tosa": {
+        "title": "TOSA Excel",
+        "issuer": "Isograd",
+        "date": "Novembre 2025",
+        "description": "Score 913 / 1000 – Niveau Expert. Conaissance et utilisation du logiciel est maitrisée."
+      },
+      "datascientest": {
+        "title": "Data Analyst",
+        "issuer": "Datascientest.com",
+        "date": "Mai 2024",
+        "description": "Programme intensif couvrant Python, machine learning, visualisation et industrialisation des pipelines data."
+      },
+      "iscod": {
+        "title": "Executive Bachelor Comptabilité, Finance & Gestion",
+        "issuer": "ISCOD",
+        "date": "2024",
+        "description": "Spécialisation en pilotage de la performance, finance d'entreprise, droit et stratégie marketing."
+      }
+    }
+  },
+  "vibeCoding": {
+    "subtitle": "Approche développement",
+    "title": "Vibe Coding",
+    "content": "Le vibe coding est passionnant car il permet de réaliser en quelques semaines un travail qui prendrait normalement plusieurs mois. Cette approche ne se contente pas d'aller vite : elle m'expose constamment à des problèmes et des difficultés techniques qui me poussent à débugger, à chercher des solutions et à approfondir ma compréhension. Bien sûr, cela ne remplacera jamais un vrai développeur expert, mais je pense que l'IA combinée à un expert dans le domaine (finance, data, BI) peut aller très très loin.",
+    "footer": "Je pratique le vibe coding pour le plaisir, mais aussi pour répondre à des besoins spécifiques que je rencontre dans mon quotidien professionnel ou qui sont identifiés dans les entreprises. Cette approche me permet de transformer rapidement des problématiques métier en outils concrets, utilisables et évolutifs, tout en développant mes compétences techniques au fil des défis rencontrés.",
+    "toolsTitle": "Outils utilisés",
+    "completedProjectsTitle": "Projets réalisés",
+    "ongoingProjectsTitle": "Projets en cours",
+    "published": "Publié",
+    "inDevelopment": "En développement",
+    "viewDemo": "Voir la démo",
+    "viewCode": "Voir le code",
+    "tools": {
+      "cursor": {
+        "name": "Cursor",
+        "description": "Éditeur principal pour le développement rapide"
+      },
+      "claudeCode": {
+        "name": "Claude Code",
+        "description": "Assistant IA pour l'accélération du développement"
+      },
+      "claude": {
+        "name": "Claude",
+        "description": "Modèle IA pour assistance au développement"
+      },
+      "gpt": {
+        "name": "GPT",
+        "description": "Modèles GPT pour génération de code et résolution de problèmes"
+      },
+      "sonnet": {
+        "name": "Sonnet",
+        "description": "Modèle IA avancé pour développement assisté"
+      },
+      "opus": {
+        "name": "Opus",
+        "description": "Modèle IA pour tâches complexes de développement"
+      },
+      "docker": {
+        "name": "Docker",
+        "description": "Conteneurisation et déploiement d'applications"
+      },
+      "react": {
+        "name": "React / Next.js",
+        "description": "Frameworks frontend pour applications web"
+      },
+      "python": {
+        "name": "Python / FastAPI",
+        "description": "Backend et APIs pour outils métier"
+      },
+      "sql": {
+        "name": "SQL / Pandas",
+        "description": "Manipulation et analyse de données"
+      }
+    },
+    "completedProjects": {
+      "staticWeb": {
+        "name": "Sites web statiques et dynamiques",
+        "description": "Sites web publiés et fonctionnels, orientés finance et calcul",
+        "tags": ["React", "Next.js", "Web"]
+      },
+      "financialTools": {
+        "name": "Outils de calcul financier",
+        "description": "Calculs de P&L, simulation de coûts, outils de calcul de transport",
+        "tags": ["Python", "Finance", "Calcul"]
+      },
+      "calculationPlatforms": {
+        "name": "Plateformes de calcul",
+        "description": "Outils web fonctionnels pour besoins métier spécifiques",
+        "tags": ["FastAPI", "Outils métier", "Web"]
+      }
+    },
+    "ongoingProjects": {
+      "recruitment": {
+        "name": "Application de recrutement",
+        "description": "Plateforme de matching, automatisation et gestion du processus de recrutement",
+        "category": "RH"
+      },
+      "productivity": {
+        "name": "Application de rappels / productivité",
+        "description": "Outil de gestion des tâches et rappels automatisés",
+        "category": "Productivité"
+      }
+    },
+    "categories": {
+      "rh": "RH",
+      "productivity": "Productivité"
+    }
+  },
+  "contact": {
+    "subtitle": "Une question ? Une proposition ?",
+    "title": "Contact",
+    "preferDirect": "Préférez-vous un contact direct ? Écrivez-moi sur",
+    "orBookCall": "ou réservez directement un appel avec moi.",
+    "downloadCV": "Télécharger mon CV",
+    "bookCall": "Réserver un appel",
+    "form": {
+      "name": {
+        "label": "Nom Complet",
+        "placeholder": "Arnaud Dupont..."
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "email@exemple.com"
+      },
+      "message": {
+        "label": "Message",
+        "placeholder": "Votre message ici..."
+      },
+      "send": "Envoyer",
+      "sending": "Envoi en cours...",
+      "success": "Merci ! Votre message a bien été envoyé. Je vous répondrai dans les plus brefs délais.",
+      "error": "Une erreur est survenue lors de l'envoi. Veuillez réessayer ou me contacter directement par email."
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 · Data · Solutions digitales · Business Intelligence",
+    "madeWith": "Fait avec ❤️, patience et intelligence artificielle 📈."
+  }
+}

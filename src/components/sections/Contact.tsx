@@ -1,4 +1,5 @@
 import React, { useState, useRef } from "react";
+import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
 import { toast } from "react-hot-toast";
 import emailjs from "@emailjs/browser";
@@ -63,6 +64,7 @@ const validateForm = (form: Record<string, string>): { isValid: boolean; error?:
 };
 
 const Contact = () => {
+  const { t } = useTranslation();
   const formRef = useRef<HTMLFormElement | null>(null);
   const [form, setForm] = useState(INITIAL_STATE);
   const [loading, setLoading] = useState(false);
@@ -115,13 +117,13 @@ const Contact = () => {
       .then(
         () => {
           setLoading(false);
-          toast.success("Merci ! Votre message a bien été envoyé. Je vous répondrai dans les plus brefs délais.");
+          toast.success(t("contact.form.success"));
           setForm(INITIAL_STATE);
           formRef.current?.reset();
         },
         (error) => {
           setLoading(false);
-          toast.error("Une erreur est survenue lors de l'envoi. Veuillez réessayer ou me contacter directement par email.");
+          toast.error(t("contact.form.error"));
           // Log error only in development
           if (import.meta.env.DEV) {
             console.error("EmailJS error:", error);
@@ -138,18 +140,18 @@ const Contact = () => {
         variants={slideIn("left", "tween", 0.2, 1)}
         className="bg-black-100 flex-[0.75] rounded-2xl p-8"
       >
-        <Header useMotion={false} {...config.contact} />
+        <Header useMotion={false} p={t("contact.subtitle")} h2={t("contact.title")} />
 
         <div className="mt-6 flex flex-col gap-4">
           <p className="text-sm text-secondary">
-            Préférez-vous un contact direct ? Écrivez-moi sur{" "}
+            {t("contact.preferDirect")}{" "}
             <a
               href={`mailto:${config.html.email}`}
               className="text-white underline underline-offset-4 transition-colors duration-200 hover:text-[#915EFF]"
             >
               {config.html.email}
             </a>
-            {" "}ou réservez directement un appel avec moi.
+            {" "}{t("contact.orBookCall")}
           </p>
           <div className="flex flex-wrap items-center gap-3">
             <a
@@ -159,7 +161,7 @@ const Contact = () => {
               rel="noreferrer"
               className="rounded-full bg-[#915EFF] px-4 py-2 text-xs font-semibold uppercase tracking-wide text-white transition-transform duration-200 hover:-translate-y-0.5"
             >
-              Télécharger mon CV
+              {t("contact.downloadCV")}
             </a>
             <a
               href="https://calendly.com/aminerc-business/30min"
@@ -167,7 +169,7 @@ const Contact = () => {
               rel="noreferrer"
               className="rounded-full border-2 border-[#915EFF] bg-[#915EFF]/20 hover:bg-[#915EFF] px-4 py-2 text-xs font-semibold uppercase tracking-wide text-white transition-all duration-200 hover:-translate-y-0.5"
             >
-              Réserver un appel
+              {t("contact.bookCall")}
             </a>
             <div className="flex items-center gap-3">
               {socials.map((social) => (
@@ -193,21 +195,19 @@ const Contact = () => {
           noValidate
         >
           {Object.keys(config.contact.form).map((input) => {
-            const { span, placeholder } =
-              config.contact.form[input as keyof typeof config.contact.form];
             const Component = input === "message" ? "textarea" : "input";
             const inputValue = form[input];
             const hasError = errors[input];
 
             return (
               <label key={input} className="flex flex-col">
-                <span className="mb-4 font-medium text-white">{span}</span>
+                <span className="mb-4 font-medium text-white">{t(`contact.form.${input}.label`)}</span>
                 <Component
                   type={input === "email" ? "email" : "text"}
                   name={input}
                   value={inputValue}
                   onChange={handleChange}
-                  placeholder={placeholder}
+                  placeholder={t(`contact.form.${input}.placeholder`)}
                   required
                   aria-required="true"
                   aria-invalid={hasError ? "true" : "false"}

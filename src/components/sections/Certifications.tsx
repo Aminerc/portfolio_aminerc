@@ -1,14 +1,18 @@
+import { useTranslation } from "react-i18next";
 import { SectionWrapper } from "../../hoc";
-import { certifications } from "../../constants";
 import { Header } from "../atoms/Header";
+import { getTranslatedCertifications } from "../../utils/i18nHelpers";
 
 const Certifications = () => {
+  const { t } = useTranslation();
+  const certifications = getTranslatedCertifications(t);
+  
   return (
     <>
       <Header
         useMotion={false}
-        p="Apprentissages clés"
-        h2="Certifications & Diplômes"
+        p={t("certifications.subtitle")}
+        h2={t("certifications.title")}
       />
 
       <div className="mt-10 grid gap-6 sm:grid-cols-2">
@@ -46,7 +50,7 @@ const Certifications = () => {
                   rel="noreferrer"
                   className="rounded-full bg-[#915EFF] px-4 py-2 text-xs font-semibold uppercase tracking-wide text-white transition-transform duration-200 hover:-translate-y-0.5"
                 >
-                  Voir la certification
+                  {t("certifications.viewCertification")}
                 </a>
               </div>
             )}

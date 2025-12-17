@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { useTranslation } from "react-i18next";
 
 import { socials } from "../../constants";
 import { config } from "../../constants/config";
@@ -27,6 +28,7 @@ const iconMap = {
 };
 
 const Footer = () => {
+  const { t } = useTranslation();
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
@@ -56,10 +58,9 @@ const Footer = () => {
       <div className="mx-auto flex w-full max-w-7xl flex-col items-center gap-2 text-center sm:flex-row sm:justify-between">
         <div className="flex flex-col text-secondary text-xs sm:text-left">
           <span>
-            © 2025 {config.html.fullName} &middot; Data · Solutions digitales ·
-            Business Intelligence
+            {t("footer.copyright")}
           </span>
-          <span>Fait avec ❤️, patience et intelligence artificielle 📈.</span>
+          <span>{t("footer.madeWith")}</span>
         </div>
         <div className="flex items-center gap-3 text-secondary">
           {socials.map((social) => (

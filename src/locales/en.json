@@ -1,0 +1,312 @@
+{
+  "nav": {
+    "about": "Profile",
+    "experience": "Experience",
+    "tech": "Technologies",
+    "certifications": "Certifications",
+    "works": "Projects",
+    "vibeCoding": "Vibe Coding",
+    "contact": "Contact"
+  },
+  "hero": {
+    "name": "Amine Ouardi",
+    "subtitle": "Where technology meets finance, tools are born that effectively drive performance and decisions.",
+    "downloadCV": "Download my CV",
+    "contactMe": "Contact me",
+    "bookCall": "Book a call"
+  },
+  "about": {
+    "subtitle": "Profile",
+    "title": "Introduction",
+    "content": "Financial analyst and financial management tools designer, I operate at the intersection of finance and technology to structure, automate and make data actionable. Graduated in accounting and management, then trained in data analysis and artificial intelligence, I have evolved into a role focused on financial transformation, business intelligence and performance consulting. My approach combines understanding of financial challenges, data mastery and technological vision to support companies in modernizing their management, automating their processes and making their analyses more reliable. I have designed and deployed dynamic financial models, interactive dashboards and automated tracking systems that enable decision-makers to better understand, anticipate and manage their business. I use tools such as advanced Excel, Power Query, Power BI, VBA, SQL, Python, Power Automate and n8n to develop custom solutions that combine precision, speed and decision-making value.",
+    "services": {
+      "finance": "Finance",
+      "data": "Data",
+      "businessIntelligence": "Business Intelligence",
+      "artificialIntelligence": "Artificial Intelligence"
+    }
+  },
+  "experience": {
+    "subtitle": "My professional journey so far",
+    "title": "Professional path",
+    "items": {
+      "snagz": {
+        "title": "Financial Automation & Data | BI",
+        "company": "SNAgz",
+        "date": "May 2025 - Present",
+        "points": [
+          "Implementation and automation of financial processes (automated P&L at ~90%, margin calculations, provisions).",
+          "Structuring a profitability tracking system by project/sale and revenue forecasting.",
+          "ERP restructuring and automation of accounting flows via Power Query / SQL.",
+          "Deployment of financial and extra-financial Power BI dashboards for operational and strategic management.",
+          "Results: automated view of margins on 5 main activities; complete structuring of direct and indirect costs; cost reduction plan managed via dashboards."
+        ]
+      },
+      "anef": {
+        "title": "Management Controller",
+        "company": "ANEF 03-63",
+        "date": "January 2023 - May 2025",
+        "points": [
+          "Budget monitoring and variance analysis/corrections.",
+          "Creation of dashboards, automated files dedicated to management, monitoring of finances and human resources.",
+          "Implementation and management of the accounting database under SQL by integrating data into Excel via PowerQuery and SQL.",
+          "Implementation and structuring of the DIR-IPS budget management software database."
+        ]
+      },
+      "morpheus": {
+        "title": "Standard / Custom Excel File Designer",
+        "company": "Morpheus Formation",
+        "date": "October 2024 - October 2025",
+        "points": [
+          "Creation of standard files / Excel file templates no code in self-service or dedicated to sales",
+          "Creation of custom files on customer demand: Finance, Associations, HR monitoring..."
+        ]
+      },
+      "datascientest": {
+        "title": "Data Analyst Training",
+        "company": "Datascientest.com",
+        "date": "September 2024 - April 2025",
+        "points": [
+          "Data analysis and management with Python via Pandas, NumPy, Scikit-learn, PySpark for preprocessing and dataframe manipulation.",
+          "Visualization with Matplotlib, Seaborn, Plotly, ggplot, Bokeh for statistical and interactive charts.",
+          "Machine learning with Scikit-learn, TensorFlow, PyTorch, XGBoost, LightGBM for prediction and modeling.",
+          "Databases: SQL, normalization, structuring with PostgreSQL, MySQL, SQLite for optimized data management."
+        ]
+      },
+      "iscod": {
+        "title": "Executive Bachelor: Accounting, Finance & Management",
+        "company": "ISCOD",
+        "date": "September 2023 - August 2024",
+        "points": [
+          "Accounting: principles, standards, regulations and accounting obligations.",
+          "Corporate finance: reporting, forecasting, margins, profitability, cost and variance analysis.",
+          "Financial management: development of dashboards and reports for performance monitoring.",
+          "Business law: basics of labor law, regulations and legal framework of companies.",
+          "Marketing & communication: communication strategies, advertising, brand management and customer relations.",
+          "Business English: mastery of terminologies, negotiation, presentations and professional exchanges in English."
+        ]
+      }
+    }
+  },
+  "feedbacks": {
+    "subtitle": "Those who trusted me...",
+    "title": "Client reviews",
+    "items": {
+      "hussam": {
+        "testimonial": "Amine was able to build me an Excel file for tracking the activity of a hospital in Riyadh. It was completed in a few weeks.",
+        "name": "Hussam F.",
+        "designation": "Finance Manager",
+        "company": "King Abdullah Hospital Center"
+      }
+    }
+  },
+  "tech": {
+    "items": {
+      "excel": {
+        "name": "Excel & Power Pivot",
+        "level": "Expert",
+        "usage": "Implementation of decision-making tools and financial / extra-financial dashboards, simulations and scenarios."
+      },
+      "powerquery": {
+        "name": "Power Query",
+        "level": "Advanced",
+        "usage": "Automated collection and transformation of multi-source data (ERP, SaaS, APIs), file industrialization."
+      },
+      "powerbi": {
+        "name": "Power BI",
+        "level": "Advanced",
+        "usage": "Design of interactive reports with data storytelling, Row Level Security (RLS) and governance."
+      },
+      "sql": {
+        "name": "SQL",
+        "level": "Advanced",
+        "usage": "Database structuring, complex queries, flow optimization and data preparation for management."
+      },
+      "automation": {
+        "name": "Power Automate & n8n",
+        "level": "Intermediate",
+        "usage": "Business workflow automation, real-time notifications and low-code/no-code integrations."
+      },
+      "python": {
+        "name": "Python",
+        "level": "Intermediate",
+        "usage": "Automation scripts, statistical analysis, data application prototyping (Pandas, Streamlit)."
+      },
+      "talend": {
+        "name": "Talend & ETL",
+        "level": "Beginner",
+        "usage": "Data integration and creation of decision-making pipelines to feed BI tools."
+      }
+    }
+  },
+  "works": {
+    "subtitle": "My achievements",
+    "title": "Projects",
+    "content": "The achievements presented below come from concrete cases and challenges encountered during my professional experiences. My projects bring innovative solutions to critical business issues (financial management, payroll management, HR monitoring...) while demonstrating my ability to design and deploy high-performance tools that improve everyone's daily life.",
+    "items": {
+      "budget": {
+        "name": "Budget monitoring and management",
+        "description": "Excel file for budget monitoring and 1-year forecasting based on variables and APIs (inflation). Accounting data is automatically retrieved via Power Query queries, querying the accounting software database.",
+        "tags": ["Excel", "sql", "Finance"]
+      },
+      "rh": {
+        "name": "HR Dashboard",
+        "description": "Personnel monitoring dashboard and population evolution within ANEF 03-63. Data is integrated via Power Query queries, linked to APIs related to the structure's 'SaaS'",
+        "tags": ["Excel", "PowerQuery", "HR"]
+      },
+      "callcenter": {
+        "name": "Performance Dashboard",
+        "description": "PowerBI report to monitor Call Center performance subdivided into 3 categories: general performance, employee performance and manager performance. Data from different datasets in different formats (text, csv, external database...)",
+        "tags": ["PowerBi", "PowerQuery", "Data"]
+      },
+      "velos": {
+        "name": "Paris Cycling Traffic",
+        "description": "This project analyzes the evolution of bicycle traffic in Paris over several years, in connection with exceptional events (COVID, national holidays) and weather, to better understand trends and optimize urban planning.",
+        "tags": ["Python", "Streamlit", "Data Analysis"]
+      }
+    }
+  },
+  "certifications": {
+    "subtitle": "Key learnings",
+    "title": "Certifications & Degrees",
+    "viewCertification": "View certification",
+    "items": {
+      "tosa": {
+        "title": "TOSA Excel",
+        "issuer": "Isograd",
+        "date": "November 2025",
+        "description": "Score 913 / 1000 – Expert Level. Knowledge and use of the software is mastered."
+      },
+      "datascientest": {
+        "title": "Data Analyst",
+        "issuer": "Datascientest.com",
+        "date": "May 2024",
+        "description": "Intensive program covering Python, machine learning, visualization and data pipeline industrialization."
+      },
+      "iscod": {
+        "title": "Executive Bachelor Accounting, Finance & Management",
+        "issuer": "ISCOD",
+        "date": "2024",
+        "description": "Specialization in performance management, corporate finance, law and marketing strategy."
+      }
+    }
+  },
+  "vibeCoding": {
+    "subtitle": "Development approach",
+    "title": "Vibe Coding",
+    "content": "Vibe coding is exciting because it allows me to complete in a few weeks work that would normally take several months. This approach doesn't just go fast: it constantly exposes me to problems and technical difficulties that push me to debug, find solutions and deepen my understanding. Of course, this will never replace a real expert developer, but I think that AI combined with a domain expert (finance, data, BI) can go very far.",
+    "footer": "I practice vibe coding for pleasure, but also to respond to specific needs I encounter in my daily professional life or that are identified in companies. This approach allows me to quickly transform business problems into concrete, usable and evolutive tools, while developing my technical skills as I face challenges.",
+    "toolsTitle": "Tools used",
+    "completedProjectsTitle": "Completed projects",
+    "ongoingProjectsTitle": "Ongoing projects",
+    "published": "Published",
+    "inDevelopment": "In development",
+    "viewDemo": "View demo",
+    "viewCode": "View code",
+    "tools": {
+      "cursor": {
+        "name": "Cursor",
+        "description": "Main editor for rapid development"
+      },
+      "claudeCode": {
+        "name": "Claude Code",
+        "description": "AI assistant for development acceleration"
+      },
+      "claude": {
+        "name": "Claude",
+        "description": "AI model for development assistance"
+      },
+      "gpt": {
+        "name": "GPT",
+        "description": "GPT models for code generation and problem solving"
+      },
+      "sonnet": {
+        "name": "Sonnet",
+        "description": "Advanced AI model for assisted development"
+      },
+      "opus": {
+        "name": "Opus",
+        "description": "AI model for complex development tasks"
+      },
+      "docker": {
+        "name": "Docker",
+        "description": "Containerization and application deployment"
+      },
+      "react": {
+        "name": "React / Next.js",
+        "description": "Frontend frameworks for web applications"
+      },
+      "python": {
+        "name": "Python / FastAPI",
+        "description": "Backend and APIs for business tools"
+      },
+      "sql": {
+        "name": "SQL / Pandas",
+        "description": "Data manipulation and analysis"
+      }
+    },
+    "completedProjects": {
+      "staticWeb": {
+        "name": "Static and dynamic websites",
+        "description": "Published and functional websites, focused on finance and calculation",
+        "tags": ["React", "Next.js", "Web"]
+      },
+      "financialTools": {
+        "name": "Financial calculation tools",
+        "description": "P&L calculations, cost simulation, transport calculation tools",
+        "tags": ["Python", "Finance", "Calculation"]
+      },
+      "calculationPlatforms": {
+        "name": "Calculation platforms",
+        "description": "Functional web tools for specific business needs",
+        "tags": ["FastAPI", "Business tools", "Web"]
+      }
+    },
+    "ongoingProjects": {
+      "recruitment": {
+        "name": "Recruitment application",
+        "description": "Matching platform, automation and management of the recruitment process",
+        "category": "HR"
+      },
+      "productivity": {
+        "name": "Reminders / productivity application",
+        "description": "Task management and automated reminders tool",
+        "category": "Productivity"
+      }
+    },
+    "categories": {
+      "rh": "HR",
+      "productivity": "Productivity"
+    }
+  },
+  "contact": {
+    "subtitle": "A question? A proposal?",
+    "title": "Contact",
+    "preferDirect": "Prefer direct contact? Write to me at",
+    "orBookCall": "or book a call directly with me.",
+    "downloadCV": "Download my CV",
+    "bookCall": "Book a call",
+    "form": {
+      "name": {
+        "label": "Full Name",
+        "placeholder": "John Doe..."
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "email@example.com"
+      },
+      "message": {
+        "label": "Message",
+        "placeholder": "Your message here..."
+      },
+      "send": "Send",
+      "sending": "Sending...",
+      "success": "Thank you! Your message has been sent. I will reply as soon as possible.",
+      "error": "An error occurred while sending. Please try again or contact me directly by email."
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 · Data · Digital Solutions · Business Intelligence",
+    "madeWith": "Made with ❤️, patience and artificial intelligence 📈."
+  }
+}

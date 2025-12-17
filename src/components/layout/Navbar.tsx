@@ -1,9 +1,11 @@
 import { useEffect, useState } from "react";
+import { useTranslation } from "react-i18next";
 
 import { styles } from "../../constants/styles";
 import { navLinks, socials } from "../../constants";
 import { pdp, menu, close } from "../../assets";
 import { config } from "../../constants/config";
+import LanguageSwitcher from "./LanguageSwitcher";
 
 const iconMap = {
   linkedin: (
@@ -29,6 +31,7 @@ const iconMap = {
 };
 
 const Navbar = () => {
+  const { t } = useTranslation();
   const [active, setActive] = useState<string | null>();
   const [toggle, setToggle] = useState(false);
   const [scrolled, setScrolled] = useState(false);
@@ -115,13 +118,14 @@ const Navbar = () => {
                 aria-current={active === nav.id ? "page" : undefined}
                 className="focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-primary p-2 rounded block"
               >
-                {nav.title}
+                {t(`nav.${nav.id === 'work' ? 'experience' : nav.id === 'vibe-coding' ? 'vibeCoding' : nav.id}`)}
               </a>
             </li>
           ))}
         </ul>
 
         <div className="hidden items-center gap-4 sm:flex ml-4">
+          <LanguageSwitcher />
           {socials.map((social) => (
             <a
               key={social.name}
@@ -180,10 +184,13 @@ const Navbar = () => {
                       setToggle(!toggle);
                     }}
                   >
-                    {nav.title}
+                    {t(`nav.${nav.id === 'work' ? 'experience' : nav.id === 'vibe-coding' ? 'vibeCoding' : nav.id}`)}
                   </a>
                 </li>
               ))}
+              <li className="mt-2 flex items-center gap-3" role="none">
+                <LanguageSwitcher />
+              </li>
               <li className="mt-2 flex items-center gap-3" role="none">
                 {socials.map((social) => (
                   <a

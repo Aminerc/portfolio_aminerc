@@ -1,7 +1,11 @@
+import { useTranslation } from "react-i18next";
 import { SectionWrapper } from "../../hoc";
-import { technologies } from "../../constants";
+import { getTranslatedTechnologies } from "../../utils/i18nHelpers";
 
 const Tech = () => {
+  const { t } = useTranslation();
+  const technologies = getTranslatedTechnologies(t);
+  
   return (
     <>
       <div className="grid gap-6 sm:grid-cols-2">

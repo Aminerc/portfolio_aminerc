@@ -1,12 +1,12 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
 
-import { services } from "../../constants";
 import { SectionWrapper } from "../../hoc";
 import { fadeIn } from "../../utils/motion";
-import { config } from "../../constants/config";
 import { Header } from "../atoms/Header";
+import { getTranslatedServices } from "../../utils/i18nHelpers";
 
 interface IServiceCard {
   index: number;
@@ -45,15 +45,18 @@ const ServiceCard: React.FC<IServiceCard> = ({ index, title, icon }) => (
 );
 
 const About = () => {
+  const { t } = useTranslation();
+  const services = getTranslatedServices(t);
+  
   return (
     <div className="pt-8">
-      <Header useMotion={true} {...config.sections.about} />
+      <Header useMotion={true} p={t("about.subtitle")} h2={t("about.title")} />
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className="text-secondary mt-4 max-w-3xl text-[17px] leading-[30px]"
       >
-        {config.sections.about.content}
+        {t("about.content")}
       </motion.p>
 
       <div className="mt-20 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">

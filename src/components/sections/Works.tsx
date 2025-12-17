@@ -1,12 +1,12 @@
+import { useTranslation } from "react-i18next";
 import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
 
 import { SectionWrapper } from "../../hoc";
-import { projects } from "../../constants";
 import { fadeIn } from "../../utils/motion";
-import { config } from "../../constants/config";
 import { Header } from "../atoms/Header";
 import { TProject } from "../../types";
+import { getTranslatedProjects } from "../../utils/i18nHelpers";
 
 const ProjectCard: React.FC<{ index: number } & TProject> = ({
   index,
@@ -17,6 +17,8 @@ const ProjectCard: React.FC<{ index: number } & TProject> = ({
   sourceCodeLink,
   demoLink,
 }) => {
+  const { t } = useTranslation();
+  
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
@@ -54,7 +56,7 @@ const ProjectCard: React.FC<{ index: number } & TProject> = ({
                 rel="noreferrer"
                 className="rounded-full bg-[#915EFF] px-4 py-2 text-xs font-semibold uppercase tracking-wide text-white transition-transform duration-200 hover:-translate-y-0.5"
               >
-                Voir la démo
+                {t("vibeCoding.viewDemo")}
               </a>
             )}
             {sourceCodeLink && (
@@ -64,7 +66,7 @@ const ProjectCard: React.FC<{ index: number } & TProject> = ({
                 rel="noreferrer"
                 className="rounded-full border border-secondary/40 px-4 py-2 text-xs font-semibold uppercase tracking-wide text-secondary transition-colors duration-200 hover:border-white hover:text-white"
               >
-                Voir le code
+                {t("vibeCoding.viewCode")}
               </a>
             )}
           </div>
@@ -75,16 +77,19 @@ const ProjectCard: React.FC<{ index: number } & TProject> = ({
 };
 
 const Works = () => {
+  const { t } = useTranslation();
+  const projects = getTranslatedProjects(t);
+  
   return (
     <>
-      <Header useMotion={true} {...config.sections.works} />
+      <Header useMotion={true} p={t("works.subtitle")} h2={t("works.title")} />
 
       <div className="flex w-full">
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
           className="text-secondary mt-3 max-w-3xl text-[17px] leading-[30px]"
         >
-          {config.sections.works.content}
+          {t("works.content")}
         </motion.p>
       </div>
 
