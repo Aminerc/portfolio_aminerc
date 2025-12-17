@@ -46,7 +46,7 @@ export const config: TConfig = {
     title: "Amine Ouardi Portfolio",
     fullName: "Amine Ouardi",
     email: "aminerc.business@outlook.com",
-    cvLink: "/documents/CV_Amine_Ouardi_12%202025.pdf",
+    cvLink: "/documents/CV_Amine_Ouardi_12_2025.pdf",
   },
   hero: {
     name: "Amine Ouardi",
@@ -72,11 +72,11 @@ export const config: TConfig = {
       p: "Profil",
       h2: "Introduction",
       content: 
-      `Analyste et concepteur d’outils de pilotage financier, j’interviens à la croisée de la finance et de la technologie pour structurer, automatiser et rendre les données exploitables.
-Diplômé en comptabilité et gestion, puis formé en data analyse et intelligence artificielle, j’ai évolué vers un rôle axé sur la transformation financière, la business intelligence et le conseil en performance.
-Mon approche allie compréhension des enjeux financiers, maîtrise des données et vision technologique afin d’accompagner les entreprises dans la modernisation de leur pilotage, l’automatisation de leurs processus et la fiabilisation de leurs analyses.
-J’ai conçu et déployé des modèles financiers dynamiques, des tableaux de bord interactifs et des systèmes de suivi automatisés permettant aux décideurs de mieux comprendre, anticiper et piloter leur activité.
-J’utilise des outils tels que Excel avancé, Power Query, Power BI, VBA, SQL, Python, Power Automate et n8n, pour développer des solutions sur mesure qui allient précision, rapidité et valeur ajoutée décisionnelle.`,
+      `Analyste et concepteur d'outils de pilotage financier, j'interviens à la croisée de la finance et de la technologie pour structurer, automatiser et rendre les données exploitables.
+Diplômé en comptabilité et gestion, puis formé en data analyse et intelligence artificielle, j'ai évolué vers un rôle axé sur la transformation financière, la business intelligence et le conseil en performance.
+Mon approche allie compréhension des enjeux financiers, maîtrise des données et vision technologique afin d'accompagner les entreprises dans la modernisation de leur pilotage, l'automatisation de leurs processus et la fiabilisation de leurs analyses.
+J'ai conçu et déployé des modèles financiers dynamiques, des tableaux de bord interactifs et des systèmes de suivi automatisés permettant aux décideurs de mieux comprendre, anticiper et piloter leur activité.
+J'utilise des outils tels que Excel avancé, Power Query, Power BI, VBA, SQL, Python, Power Automate et n8n, pour développer des solutions sur mesure qui allient précision, rapidité et valeur ajoutée décisionnelle.`,
       footer: ""
     },
     experience: {
