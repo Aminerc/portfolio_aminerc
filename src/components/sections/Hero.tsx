@@ -46,7 +46,7 @@ const Hero = () => {
             </p>
             <div className="mt-8 flex flex-wrap items-center gap-4">
               <a
-                href={config.html.cvLink}
+                href={`${import.meta.env.BASE_URL}${config.html.cvLink.substring(1)}`}
                 download="CV_Amine_Ouardi_12_2025.pdf"
                 target="_blank"
                 rel="noreferrer"

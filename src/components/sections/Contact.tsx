@@ -155,7 +155,7 @@ const Contact = () => {
           </p>
           <div className="flex flex-wrap items-center gap-3">
             <a
-              href={config.html.cvLink}
+              href={`${import.meta.env.BASE_URL}${config.html.cvLink.substring(1)}`}
               download="CV_Amine_Ouardi_12_2025.pdf"
               target="_blank"
               rel="noreferrer"
