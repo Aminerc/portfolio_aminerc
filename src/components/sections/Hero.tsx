@@ -47,7 +47,7 @@ const Hero = () => {
             <div className="mt-8 flex flex-wrap items-center gap-4">
               <a
                 href={`${import.meta.env.BASE_URL}${config.html.cvLink.substring(1)}`}
-                download="CV_Amine_Ouardi_12_2025.pdf"
+                download="AO EN - Financial Consultant Data & AI.pdf"
                 target="_blank"
                 rel="noreferrer"
                 className="rounded-full bg-[#915EFF] px-6 py-3 text-sm font-semibold uppercase tracking-wide text-white transition-transform duration-200 hover:-translate-y-0.5"

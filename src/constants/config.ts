@@ -46,7 +46,7 @@ export const config: TConfig = {
     title: "Amine Ouardi Portfolio",
     fullName: "Amine Ouardi",
     email: "aminerc.business@outlook.com",
-    cvLink: "/documents/CV_Amine_Ouardi_12_2025.pdf",
+    cvLink: "/documents/AO EN - Financial Consultant Data & AI.pdf",
   },
   hero: {
     name: "Amine Ouardi",
