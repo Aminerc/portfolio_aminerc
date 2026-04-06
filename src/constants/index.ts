@@ -59,8 +59,8 @@ export const navLinks: TNavLink[] = [
     title: "Projets",
   },
   {
-    id: "vibe-coding",
-    title: "Vibe Coding",
+    id: "low-code",
+    title: "Low-Code Solutions",
   },
   {
     id: "contact",

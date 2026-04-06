@@ -37,7 +37,7 @@ type TConfig = {
     experience: TSection;
     feedbacks: TSection;
     works: Required<TSection>;
-    vibeCoding: Required<TSection> & { footer: string };
+    lowCode: Required<TSection> & { footer: string };
   };
 };
 
@@ -97,11 +97,11 @@ J'utilise des outils tels que Excel avancé, Power Query, Power BI, VBA, SQL, Py
       tout en démontrant ma capacité à concevoir et déployer des outils performants qui améliorent le quotidien de chacun.`,
       footer: ""
     },
-    vibeCoding: {
-      p: "Approche développement",
-      h2: "Vibe Coding",
-      content: `Le vibe coding est passionnant car il permet de réaliser en quelques semaines un travail qui prendrait normalement plusieurs mois. Cette approche ne se contente pas d'aller vite : elle m'expose constamment à des problèmes et des difficultés techniques qui me poussent à débugger, à chercher des solutions et à approfondir ma compréhension. Bien sûr, cela ne remplacera jamais un vrai développeur expert, mais je pense que l'IA combinée à un expert dans le domaine (finance, data, BI) peut aller très très loin.`,
-      footer: `Je pratique le vibe coding pour le plaisir, mais aussi pour répondre à des besoins spécifiques que je rencontre dans mon quotidien professionnel ou qui sont identifiés dans les entreprises. Cette approche me permet de transformer rapidement des problématiques métier en outils concrets, utilisables et évolutifs, tout en développant mes compétences techniques au fil des défis rencontrés.`,
+    lowCode: {
+      p: "Développement d'applications sur mesure",
+      h2: "Solutions Low-Code",
+      content: `Je conçois et livre des applications métier sur mesure en utilisant des technologies modernes (React, Python, FastAPI). Mon approche est centrée sur la compréhension de vos besoins spécifiques, la construction d'outils robustes et évolutifs, et la garantie de votre satisfaction à chaque étape — de la spécification initiale jusqu'au déploiement et au-delà. Chaque projet est un engagement : je reste disponible pour itérer, accompagner et faire évoluer la solution jusqu'à ce qu'elle réponde pleinement à vos exigences.`,
+      footer: `Des outils de business intelligence aux applications web full-stack, je transforme des problématiques métier concrètes en solutions prêtes pour la production. Mes clients bénéficient d'un processus de livraison structuré et transparent avec des mises à jour régulières, et je reste engagé après la livraison pour m'assurer que les outils fonctionnent comme prévu en conditions réelles.`,
     },
   },
 };

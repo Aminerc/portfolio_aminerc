@@ -118,7 +118,7 @@ const Navbar = () => {
                 aria-current={active === nav.id ? "page" : undefined}
                 className="focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-primary p-2 rounded block"
               >
-                {t(`nav.${nav.id === 'work' ? 'experience' : nav.id === 'vibe-coding' ? 'vibeCoding' : nav.id}`)}
+                {t(`nav.${nav.id === 'work' ? 'experience' : nav.id === 'low-code' ? 'lowCode' : nav.id}`)}
               </a>
             </li>
           ))}
@@ -184,7 +184,7 @@ const Navbar = () => {
                       setToggle(!toggle);
                     }}
                   >
-                    {t(`nav.${nav.id === 'work' ? 'experience' : nav.id === 'vibe-coding' ? 'vibeCoding' : nav.id}`)}
+                    {t(`nav.${nav.id === 'work' ? 'experience' : nav.id === 'low-code' ? 'lowCode' : nav.id}`)}
                   </a>
                 </li>
               ))}

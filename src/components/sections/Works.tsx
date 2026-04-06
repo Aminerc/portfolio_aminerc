@@ -56,7 +56,7 @@ const ProjectCard: React.FC<{ index: number } & TProject> = ({
                 rel="noreferrer"
                 className="rounded-full bg-[#915EFF] px-4 py-2 text-xs font-semibold uppercase tracking-wide text-white transition-transform duration-200 hover:-translate-y-0.5"
               >
-                {t("vibeCoding.viewDemo")}
+                {t("lowCode.viewDemo")}
               </a>
             )}
             {sourceCodeLink && (
@@ -66,7 +66,7 @@ const ProjectCard: React.FC<{ index: number } & TProject> = ({
                 rel="noreferrer"
                 className="rounded-full border border-secondary/40 px-4 py-2 text-xs font-semibold uppercase tracking-wide text-secondary transition-colors duration-200 hover:border-white hover:text-white"
               >
-                {t("vibeCoding.viewCode")}
+                {t("lowCode.viewCode")}
               </a>
             )}
           </div>

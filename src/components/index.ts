@@ -14,7 +14,7 @@ import Experience from "./sections/Experience";
 import Works from "./sections/Works";
 import Certifications from "./sections/Certifications";
 import Contact from "./sections/Contact";
-import VibeCoding from "./sections/VibeCoding";
+import LowCodeSolutions from "./sections/LowCodeSolutions";
 import CanvasLoader from "./layout/Loader";
 
 export {
@@ -27,7 +27,7 @@ export {
   Works,
   Certifications,
   Contact,
-  VibeCoding,
+  LowCodeSolutions,
   LanguageSwitcher,
   CanvasLoader,
   EarthCanvas,

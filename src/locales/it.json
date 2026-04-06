@@ -5,7 +5,7 @@
     "tech": "Tecnologie",
     "certifications": "Certificazioni",
     "works": "Progetti",
-    "vibeCoding": "Vibe Coding",
+    "lowCode": "Soluzioni Low-Code",
     "contact": "Contatto"
   },
   "hero": {
@@ -191,13 +191,13 @@
       }
     }
   },
-  "vibeCoding": {
-    "subtitle": "Approccio allo sviluppo",
-    "title": "Vibe Coding",
-    "content": "Il vibe coding è entusiasmante perché mi permette di completare in poche settimane un lavoro che normalmente richiederebbe diversi mesi. Questo approccio non si limita ad andare veloce: mi espone costantemente a problemi e difficoltà tecniche che mi spingono a debuggare, trovare soluzioni e approfondire la mia comprensione. Certo, questo non sostituirà mai un vero sviluppatore esperto, ma penso che l'IA combinata con un esperto del dominio (finanza, dati, BI) possa arrivare molto lontano.",
-    "footer": "Pratico il vibe coding per piacere, ma anche per rispondere a esigenze specifiche che incontro nella mia vita professionale quotidiana o che vengono identificate nelle aziende. Questo approccio mi permette di trasformare rapidamente problemi aziendali in strumenti concreti, utilizzabili ed evolutivi, sviluppando al contempo le mie competenze tecniche man mano che affronto le sfide.",
-    "toolsTitle": "Strumenti utilizzati",
-    "completedProjectsTitle": "Progetti completati",
+  "lowCode": {
+    "subtitle": "Sviluppo di applicazioni personalizzate",
+    "title": "Soluzioni Low-Code",
+    "content": "Progetto e consegno applicazioni aziendali personalizzate utilizzando tecnologie moderne (React, Python, FastAPI). Il mio approccio è incentrato sulla comprensione delle vostre esigenze specifiche, sulla costruzione di strumenti robusti e scalabili, e sulla garanzia della vostra soddisfazione in ogni fase — dalla specifica iniziale alla distribuzione e oltre. Ogni progetto è un impegno: rimango disponibile per iterare, supportare e far evolvere la soluzione fino a quando non soddisfa pienamente i vostri requisiti.",
+    "footer": "Dagli strumenti di business intelligence alle applicazioni web full-stack, trasformo le sfide aziendali concrete in soluzioni pronte per la produzione. I miei clienti beneficiano di un processo di consegna strutturato e trasparente con aggiornamenti regolari, e rimango coinvolto dopo la consegna per garantire che gli strumenti funzionino come previsto nell'uso reale.",
+    "toolsTitle": "Tecnologie utilizzate",
+    "completedProjectsTitle": "Applicazioni realizzate",
     "ongoingProjectsTitle": "Progetti in corso",
     "published": "Pubblicato",
     "inDevelopment": "In sviluppo",
@@ -260,6 +260,19 @@
         "name": "Piattaforme di calcolo",
         "description": "Strumenti web funzionali per esigenze aziendali specifiche",
         "tags": ["FastAPI", "Business tools", "Web"]
+      },
+      "crm": {
+        "name": "Applicazione CRM",
+        "description": "CRM completo per la gestione delle relazioni con i clienti: tracciamento contatti, pipeline opportunità e storico interazioni commerciali.",
+        "tags": ["Python", "React", "FastAPI"],
+        "sourceCodeLink": "https://github.com/Aminerc",
+        "demoLink": ""
+      },
+      "customerRecovery": {
+        "name": "Applicazione di recupero clienti",
+        "description": "Strumento per la gestione e l'automazione dei solleciti clienti: segmentazione insoluti, tracciamento azioni e storico completo degli scambi.",
+        "tags": ["Python", "React", "FastAPI"],
+        "sourceCodeLink": "https://github.com/Aminerc"
       }
     },
     "ongoingProjects": {

@@ -5,7 +5,7 @@
     "tech": "Technologies",
     "certifications": "Certifications",
     "works": "Projects",
-    "vibeCoding": "Vibe Coding",
+    "lowCode": "Low-Code Solutions",
     "contact": "Contact"
   },
   "hero": {
@@ -191,13 +191,13 @@
       }
     }
   },
-  "vibeCoding": {
-    "subtitle": "Development approach",
-    "title": "Vibe Coding",
-    "content": "Vibe coding is exciting because it allows me to complete in a few weeks work that would normally take several months. This approach doesn't just go fast: it constantly exposes me to problems and technical difficulties that push me to debug, find solutions and deepen my understanding. Of course, this will never replace a real expert developer, but I think that AI combined with a domain expert (finance, data, BI) can go very far.",
-    "footer": "I practice vibe coding for pleasure, but also to respond to specific needs I encounter in my daily professional life or that are identified in companies. This approach allows me to quickly transform business problems into concrete, usable and evolutive tools, while developing my technical skills as I face challenges.",
-    "toolsTitle": "Tools used",
-    "completedProjectsTitle": "Completed projects",
+  "lowCode": {
+    "subtitle": "Custom Application Development",
+    "title": "Low-Code Solutions",
+    "content": "I design and deliver custom business applications using modern technologies (React, Python, FastAPI). My approach is centered on understanding your specific needs, building robust and scalable tools, and ensuring your satisfaction at every stage — from initial specification through deployment and beyond. Every project is a commitment: I remain available to iterate, support, and evolve the solution until it fully meets your requirements.",
+    "footer": "From business intelligence tools to full-stack web applications, I transform concrete business challenges into production-ready solutions. My clients benefit from a structured, transparent delivery process with regular updates, and I remain engaged post-delivery to ensure the tools perform as expected in real-world use.",
+    "toolsTitle": "Technologies used",
+    "completedProjectsTitle": "Completed applications",
     "ongoingProjectsTitle": "Ongoing projects",
     "published": "Published",
     "inDevelopment": "In development",
@@ -260,6 +260,19 @@
         "name": "Calculation platforms",
         "description": "Functional web tools for specific business needs",
         "tags": ["FastAPI", "Business tools", "Web"]
+      },
+      "crm": {
+        "name": "CRM Application",
+        "description": "Full-featured CRM for managing client relationships: contact tracking, opportunity pipeline, and commercial interaction history.",
+        "tags": ["Python", "React", "FastAPI"],
+        "sourceCodeLink": "https://github.com/Aminerc",
+        "demoLink": ""
+      },
+      "customerRecovery": {
+        "name": "Customer Recovery Application",
+        "description": "Tool for managing and automating client follow-up: receivables segmentation, action tracking, and full interaction history.",
+        "tags": ["Python", "React", "FastAPI"],
+        "sourceCodeLink": "https://github.com/Aminerc"
       }
     },
     "ongoingProjects": {
