@@ -40,19 +40,12 @@ const LowCodeSolutions = () => {
         color: PROJECT_TAG_COLORS[tag] || 'grey-gradient-text',
       })),
       image: null,
-      demoLink: t(`lowCode.completedProjects.${key}.demoLink`) || null,
-      sourceCodeLink: t(`lowCode.completedProjects.${key}.sourceCodeLink`) || null,
+      demoLink: (() => {
+        const v = t(`lowCode.completedProjects.${key}.demoLink`);
+        return typeof v === 'string' && v.startsWith('http') ? v : null;
+      })(),
     };
   });
-
-  const ongoingProjectKeys = ['recruitment', 'productivity'] as const;
-  const inProgressProjects = ongoingProjectKeys.map((key) => ({
-    name: t(`lowCode.ongoingProjects.${key}.name`),
-    description: t(`lowCode.ongoingProjects.${key}.description`),
-    category: t(`lowCode.ongoingProjects.${key}.category`),
-    status: t("lowCode.inDevelopment"),
-  }));
-
 
   return (
     <>
@@ -128,44 +121,9 @@ const LowCodeSolutions = () => {
                         {t("lowCode.viewDemo")}
                       </a>
                     )}
-                    {project.sourceCodeLink && (
-                      <a
-                        href={project.sourceCodeLink}
-                        target="_blank"
-                        rel="noreferrer"
-                        className="rounded-full border border-secondary/40 px-4 py-2 text-xs font-semibold uppercase tracking-wide text-secondary transition-colors duration-200 hover:border-white hover:text-white"
-                      >
-                        {t("lowCode.viewCode")}
-                      </a>
-                    )}
                   </div>
                 </div>
               </Tilt>
-            </motion.div>
-          ))}
-        </div>
-      </div>
-
-      {/* Projets en cours */}
-      <div className="mt-16">
-        <h3 className="text-white text-2xl font-bold mb-6">{t("lowCode.ongoingProjectsTitle")}</h3>
-        <div className="grid gap-6 sm:grid-cols-2">
-          {inProgressProjects.map((project, index) => (
-            <motion.div
-              key={project.name}
-              variants={fadeIn("up", "spring", index * 0.2, 0.75)}
-              className="rounded-xl border border-tertiary/60 bg-tertiary/60 p-6 shadow-card transition-transform duration-300 hover:-translate-y-1 hover:shadow-lg"
-            >
-              <div className="flex items-start justify-between mb-3">
-                <h4 className="text-white font-semibold text-lg">{project.name}</h4>
-                <span className="rounded-full bg-yellow-500/20 px-3 py-1 text-[11px] font-medium text-yellow-400">
-                  🚧 {t("lowCode.inDevelopment")}
-                </span>
-              </div>
-              <p className="text-secondary text-sm mb-3">{project.description}</p>
-              <span className="inline-block rounded-full border border-[#915EFF]/40 px-3 py-1 text-[11px] font-medium text-secondary/80">
-                {project.category}
-              </span>
             </motion.div>
           ))}
         </div>

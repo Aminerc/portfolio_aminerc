@@ -262,17 +262,14 @@
         "tags": ["FastAPI", "Outils métier", "Web"]
       },
       "crm": {
-        "name": "Application CRM",
-        "description": "Solution CRM complète pour la gestion de la relation client : suivi des contacts, des opportunités et des interactions commerciales.",
-        "tags": ["Python", "React", "FastAPI"],
-        "sourceCodeLink": "https://github.com/Aminerc",
-        "demoLink": ""
+        "name": "CRM",
+        "description": "CRM développé pour une entreprise de l’industrie travaillant avec des artistes musicaux : gestion des contacts, suivi des opportunités, historique des échanges et pilotage de l’activité.",
+        "tags": ["Python", "React", "FastAPI"]
       },
       "customerRecovery": {
         "name": "Application de relance client",
         "description": "Outil de gestion et d'automatisation des relances clients : segmentation des impayés, suivi des actions et historique des échanges.",
-        "tags": ["Python", "React", "FastAPI"],
-        "sourceCodeLink": "https://github.com/Aminerc"
+        "tags": ["Python", "React", "FastAPI"]
       }
     },
     "ongoingProjects": {

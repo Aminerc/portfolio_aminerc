@@ -262,17 +262,14 @@
         "tags": ["FastAPI", "Business tools", "Web"]
       },
       "crm": {
-        "name": "CRM Application",
-        "description": "Full-featured CRM for managing client relationships: contact tracking, opportunity pipeline, and commercial interaction history.",
-        "tags": ["Python", "React", "FastAPI"],
-        "sourceCodeLink": "https://github.com/Aminerc",
-        "demoLink": ""
+        "name": "CRM",
+        "description": "CRM built for an industrial company working with music artists: contact management, opportunity tracking, interaction history, and activity reporting.",
+        "tags": ["Python", "React", "FastAPI"]
       },
       "customerRecovery": {
         "name": "Customer Recovery Application",
         "description": "Tool for managing and automating client follow-up: receivables segmentation, action tracking, and full interaction history.",
-        "tags": ["Python", "React", "FastAPI"],
-        "sourceCodeLink": "https://github.com/Aminerc"
+        "tags": ["Python", "React", "FastAPI"]
       }
     },
     "ongoingProjects": {

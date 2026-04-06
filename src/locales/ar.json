@@ -262,17 +262,14 @@
         "tags": ["FastAPI", "Business tools", "Web"]
       },
       "crm": {
-        "name": "تطبيق CRM",
-        "description": "نظام CRM متكامل لإدارة علاقات العملاء: تتبع جهات الاتصال وخط الفرص وسجل التفاعلات التجارية.",
-        "tags": ["Python", "React", "FastAPI"],
-        "sourceCodeLink": "https://github.com/Aminerc",
-        "demoLink": ""
+        "name": "CRM",
+        "description": "نظام CRM طُوِّر لشركة صناعية تعمل مع فنانين موسيقيين: إدارة جهات الاتصال، تتبع الفرص، سجل التفاعلات، وتقارير لمتابعة النشاط.",
+        "tags": ["Python", "React", "FastAPI"]
       },
       "customerRecovery": {
         "name": "تطبيق استرداد العملاء",
         "description": "أداة لإدارة وأتمتة متابعة العملاء: تصنيف المستحقات وتتبع الإجراءات وسجل كامل للتبادلات.",
-        "tags": ["Python", "React", "FastAPI"],
-        "sourceCodeLink": "https://github.com/Aminerc"
+        "tags": ["Python", "React", "FastAPI"]
       }
     },
     "ongoingProjects": {
