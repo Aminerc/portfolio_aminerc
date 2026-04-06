@@ -98,7 +98,7 @@ const Navbar = () => {
               {config.html.title}
             </p>
             <span className="text-[10px] text-secondary/50 italic lowercase -mt-1">
-              mis à jour le 09 11 2025
+              mis à jour le 06 04 2026
             </span>
           </div>
         </a>
